@@ -1,0 +1,114 @@
+* {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b4965; /* Arka planı tamamen lacivert yaparak beyaz boşlukları öldürdük */
+}
+
+header {
+    text-align: center;
+    background-color: #1b4965;
+    color: #dfbd69; /* Başlık rengini altın tonu yaptık */
+    padding: 60px 20px;
+}
+
+#kapsayici {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto 100px auto;
+    background-color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden; /* Kenarların dışarı taşmasını önler */
+}
+
+.iletisim_bilgileri {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: #163a52; /* Bir ton daha koyu lacivert */
+    padding: 40px;
+    justify-content: center;
+}
+
+.col-3 {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: #dfbd69;
+    text-align: center;
+    border-radius: 8px;
+    color: #1b4965;
+}
+
+.col-3 h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.mesaj_gonder {
+    width: 650px;
+    padding: 60px;
+    background-color: #fcfcfc; /* Form alanı hafif kırık beyaz */
+}
+
+.bilgi_alma {
+    display: flex;
+    flex-direction: column;
+}
+
+.bilgi_alma label {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1b4965;
+}
+
+.bilgi_alma input, 
+.bilgi_alma select, 
+.bilgi_alma textarea {
+    padding: 12px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    font-size: 15px;
+}
+
+/* Kutulara tıklandığında altın rengi çerçeve çıksın */
+.bilgi_alma input:focus, 
+.bilgi_alma select:focus, 
+.bilgi_alma textarea:focus {
+    outline: none;
+    border-color: #dfbd69;
+}
+
+.bilgi_alma textarea {
+    height: 180px;
+    resize: none;
+}
+
+button {
+    margin-top: 30px;
+    padding: 18px;
+    background-color: #1b4965;
+    color: #dfbd69;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #dfbd69;
+    color: #1b4965;
+}

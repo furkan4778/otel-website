@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iletisim Bilgileri</title>
+    <link rel="stylesheet" href="../css/iletisim.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Iletisim Bilgileri</h1>
+      <p>xxxxxxx Hotel deneyimi için bize her zaman ulaşabilirsiniz.</p>
+    </header>
+    <main id="kapsayici">
+      <section class="iletisim_bilgileri">
+        <div class="adres col-3">
+          <h3>Adresimiz</h3>
+          <p>Antalya</p>
+        </div>
+
+        <div class="telefon col-3">
+          <h3>Telefon Numaramiz</h3>
+          <p>+90 xxx xxx xx xx</p>
+        </div>
+
+        <div class="e-posta col-3">
+          <h3>E-Posta Adresimiz</h3>
+          <p>info@xxxxxxx.com</p>
+        </div>
+
+        <div class="calisma_saatleri col-3">
+          <h3>Calisma Saatlerimiz</h3>
+          <p>Resepsiyon:7/24</p>
+        </div>
+      </section>
+      <section class="mesaj_gonder">
+        <form action="#.php">
+          <div class="ad">
+            <label for="Ad">Adiniz:</label><br />
+            <input type="text" id="Ad" name="Ad" required/>
+          </div>
+
+          <div class="soyad">
+            <label for="Soy">Soyadiniz:</label><br />
+            <input type="text" id="Soy" name="Soyad" required/>
+          </div>
+
+          <div class="konu_secme">
+            <label for="konu">Konu Seciniz:</label><br />
+            <select name="konu" id="konu" required>
+              <option value="" disabled selected>Seciniz</option>
+              <option value="sikayet">Sikayet</option>
+              <option value="oneri">Oneri</option>
+              <option value="rezervasyon">Rezervasyon</option>
+              <option value="bilgi">Bilgi</option>
+              <option value="diger">Diger</option>
+            </select>
+          </div>
+          <div class="bilgi_alma">
+            <label for="kullanici_mesaj">Mesajiniz:</label>
+            <textarea name="kullanici_mesaj" id="kullanici_mesaj"> </textarea>
+          </div>
+          <div>
+            <button type="submit">Gonder</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

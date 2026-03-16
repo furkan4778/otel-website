@@ -1,0 +1,265 @@
+* {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #1b4965;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+header img {
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.menu li a {
+  background-color: #dfbd69;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.menu a:hover {
+  color: #dfbd69;
+  background-color: #000000;
+  border: 2px solid #dfbd69;
+  transform: scale(1.1);
+}
+
+.hero {
+  background-color: #e8d7c3;
+  height: 100vh;
+  background-image: url("../images/lobby2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Anasayfa {
+  color: #000000;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.tanitim {
+  background-color: #1b4965;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tanitim span {
+  background-color: rgb(0, 0, 0);
+  color: #e8d7c3;
+  width: 45%;
+  padding: 35px;
+  border-radius: 10px;
+  border: 3px solid #dfbd69;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.tanitim img {
+  width: 450px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.Anasayfa_2 {
+  background-image: url(../images/nigth_hotel.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Anasayfa_2 h2 {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  color: #f3f3f3;
+  font-size: 35px;
+  padding: 30px;
+  border: 2px solid #dfbd69;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #1b4965;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-title h2 {
+  color: #000;
+  font-size: 45px;
+  margin: 0;
+  background-color: #dfbd69;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.rooms {
+  width: 350px;
+  background-color: #dfbd69;
+  padding: 25px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  text-align: center;
+}
+
+.rooms img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.rooms a {
+  background-color: #1b4965;
+  color: #dfbd69;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.rooms a:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 50px;
+  background-color: #1b4965;
+  gap: 20px;
+}
+
+.gallery-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery-title h2 {
+  background-color: #dfbd69;
+  color: #000;
+  font-size: 40px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.image img {
+  background-color: #dfbd69;
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  border: 3px solid #000000;
+  display: block;
+}
+
+.footer {
+  background-color: #0d212d;
+  color: #f3f3f3;
+  padding: 50px 0 20px 0;
+  margin-top: 50px;
+  border-top: 4px solid #dfbd69;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-about h3,
+.footer-links h4,
+.footer-contact h4 {
+  color: #dfbd69;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #dfbd69;
+  padding-left: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(223, 189, 105, 0.2);
+  font-size: 14px;
+}
+
+.footer-bottom b {
+  color: #dfbd69;
+}
