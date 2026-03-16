@@ -170,8 +170,8 @@ header img {
 
 .gallery {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; 
+  justify-content: center; 
   padding: 50px;
   background-color: #1b4965;
   gap: 20px;
@@ -263,6 +263,7 @@ header img {
 .footer-bottom b {
   color: #dfbd69;
 }
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -285,6 +286,11 @@ header img {
   .menu li a {
     padding: 6px 12px;
     font-size: 14px;
+  }
+
+  .hero, .Anasayfa_2 {
+    background-attachment: scroll !important;
+    background-position: center center;
   }
 
   .Anasayfa {
@@ -322,7 +328,7 @@ header img {
     width: 100%;
   }
 
-  .container-title h2,
+  .container-title h2, 
   .gallery-title h2 {
     font-size: 30px;
   }
@@ -332,9 +338,7 @@ header img {
     text-align: center;
   }
 
-  .footer-about,
-  .footer-links,
-  .footer-contact {
+  .footer-about, .footer-links, .footer-contact {
     min-width: 100%;
   }
 }
@@ -343,7 +347,7 @@ header img {
   .hero h1 {
     font-size: 24px;
   }
-
+  
   .Anasayfa_2 h2 {
     font-size: 18px;
   }
