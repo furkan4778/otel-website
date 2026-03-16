@@ -4,7 +4,7 @@
 HTML ve CSS ile yapılmış eğitim amaçlı otel web sitesi.
 
 ## 🌐 Canlı Demo
-https://furkan4778.github.io/hotel-website
+https://furkan4778.github.io/otel-website/
 
 ## 🛠️ Kullanılan Teknolojiler
 - HTML
