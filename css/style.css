@@ -170,8 +170,8 @@ header img {
 
 .gallery {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 50px;
   background-color: #1b4965;
   gap: 20px;
@@ -262,4 +262,89 @@ header img {
 
 .footer-bottom b {
   color: #dfbd69;
+}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  header img {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .menu {
+    margin-right: 0;
+    padding: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li a {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .Anasayfa {
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .tanitim {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .tanitim span {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .tanitim img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Anasayfa_2 h2 {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .rooms {
+    width: 100%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .container-title h2,
+  .gallery-title h2 {
+    font-size: 30px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-contact {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .Anasayfa_2 h2 {
+    font-size: 18px;
+  }
 }
